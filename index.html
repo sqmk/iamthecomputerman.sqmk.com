@@ -9,14 +9,23 @@
             <article>
                 I AM THE COMPUTER MAN.
             </article>
-            <video autoplay loop muted="muted">
+            <video autoplay muted="muted" loop>
                 <source id="webmsource" src="/media/iam.webm" type="video/webm">
                 <source id="mp4source" src="/media/iam.mp4" type="video/mp4">
             </video>
-            <audio preload="auto" autoplay >
+            <audio autoplay loop>
                 <source src="/media/iam.mp3" type="audio/mpeg" />
                 <source src="/media/iam.ogg" type="audio/ogg" />
             </audio>
         </section>
     </body>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-56331373-1', 'auto');
+    ga('send', 'pageview');
+    </script>
 </html>
