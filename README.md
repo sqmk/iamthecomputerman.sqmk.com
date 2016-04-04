@@ -1,4 +1,4 @@
-## iamthecomputerman.com
+## iamthecomputerman.sqmk.com
 
 It is my website. I believe it explains who I am.
 
